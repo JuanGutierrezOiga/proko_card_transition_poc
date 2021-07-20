@@ -1,0 +1,36 @@
+.settings {
+  position: relative;
+  display: grid;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: #2A3287;
+  color: #ffffff;
+}
+.settings::before {
+  position: absolute;
+  left: calc(75% + 10px);
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #2A3287;
+  transform: translateY(-50%) rotate(45deg);
+}
+.settings__btn {
+  background-color: #414BBA;
+  border: 0;
+}
+.settings__input {
+  background-color: #414BBA;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+}
+.settings__input.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 5px;
+  background-color: #414BBA;
+  border: 0;
+}
+.settings__input .ant-select-arrow {
+  color: #ffffff;
+}

@@ -1,0 +1,10 @@
+.wallet_btn {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.wallet_btn:hover,
+.wallet_btn:focus {
+  background-color: transparent;
+}
